@@ -1,0 +1,32 @@
+[
+    {
+        "query": "person walking",
+        "timestamp": "00:01:02",
+        "frame": "frames\\frame_31.jpg",
+        "score": 134.8616180419922
+    },
+    {
+        "query": "person walking",
+        "timestamp": "00:01:00",
+        "frame": "frames\\frame_30.jpg",
+        "score": 135.45452880859375
+    },
+    {
+        "query": "person walking",
+        "timestamp": "00:00:38",
+        "frame": "frames\\frame_19.jpg",
+        "score": 136.66580200195312
+    },
+    {
+        "query": "person walking",
+        "timestamp": "00:01:10",
+        "frame": "frames\\frame_35.jpg",
+        "score": 136.75225830078125
+    },
+    {
+        "query": "person walking",
+        "timestamp": "00:01:08",
+        "frame": "frames\\frame_34.jpg",
+        "score": 137.45166015625
+    }
+]
