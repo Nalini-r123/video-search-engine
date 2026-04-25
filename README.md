@@ -1,12 +1,12 @@
-# 🎥 Intelligent Video Search Engine
+# Intelligent Video Search Engine
 
-## 📌 Overview
+## Overview
 
 This project implements an intelligent video search system that allows users to query video content using natural language. It retrieves the most relevant frames along with timestamps and similarity scores.
 
 ---
 
-## 🚀 Features
+## Features
 
 * Natural language query support
 * Frame-level video search
@@ -16,7 +16,7 @@ This project implements an intelligent video search system that allows users to 
 
 ---
 
-## 🧠 Architecture
+## Architecture
 
 * Video → Frame extraction using OpenCV
 * Frames → Embeddings using CLIP (Sentence Transformers)
@@ -25,7 +25,7 @@ This project implements an intelligent video search system that allows users to 
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### Install dependencies
 
@@ -41,7 +41,7 @@ python app.py
 
 ---
 
-## 🔍 Example Query
+## Example Query
 
 person walking
 car
@@ -49,7 +49,7 @@ people talking
 
 ---
 
-## 📊 Output
+## Output
 
 Each result includes:
 
@@ -62,14 +62,14 @@ Example:
 
 ---
 
-## 📁 Output File
+## Output File
 
 Results are saved in:
 results.json
 
 ---
 
-## 🧩 Design Decisions
+## Design Decisions
 
 * Used frame sampling (every 2 seconds)
 * Used CLIP for semantic understanding
@@ -77,7 +77,7 @@ results.json
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 * No temporal reasoning
 * Approximate timestamps
@@ -85,7 +85,7 @@ results.json
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Add UI (Streamlit)
 * Add temporal filtering
@@ -93,7 +93,7 @@ results.json
 
 ---
 
-## 🎥 Demo Video
+## Demo Video
 
 https://drive.google.com/file/d/12dZFenOsl5DHtRZHX1P3Q18MvoiV6r6m/view?usp=sharing
 
