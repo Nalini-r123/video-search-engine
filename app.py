@@ -29,7 +29,7 @@ while True:
     for rank, idx in enumerate(I[0]):
         frame_path = frame_paths[idx]
 
-        # 🔥 TIMESTAMP CALCULATION
+        # TIMESTAMP CALCULATION
         frame_number = int(frame_path.split("_")[-1].split(".")[0])
         seconds = frame_number * 2  # because we sampled every 2 sec
 
@@ -50,7 +50,7 @@ while True:
             "score": score
         })
 
-    # 🔥 SAVE RESULTS
+    #SAVE RESULTS
     with open("results.json", "w") as f:
         json.dump(results, f, indent=4)
 
